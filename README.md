@@ -175,7 +175,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 For detailed technical documentation and analysis (in French), please refer to:
 
-**[📋 Click here to see project report (French version)](link-to-your-french-report)**
+**[📋 Click here to see project report (French version)](RAPPORT_CNN.pdf)**
 
 ## 🙏 Acknowledgments
 
