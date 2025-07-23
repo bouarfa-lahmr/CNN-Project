@@ -14,6 +14,13 @@ This project focuses on automatic traffic sign recognition, which plays a crucia
 - **Real-time Predictions**: Instant classification results with confidence scores
 - **Comprehensive Evaluation**: Detailed performance metrics including precision, recall, and F1-score
 
+## 🏷️ Classes Used for Training
+
+These are the classes used to train this model:
+
+![Training Classes](classes.PNG)
+
+
 ## 🛠️ Technologies Used
 
 - **Python 3.8+** - Main programming language
@@ -42,17 +49,6 @@ The dataset includes various types of traffic signs:
 - Mandatory signs (turn right, go straight, roundabout)
 - And many more...
 
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Download the dataset**
-   ```bash
-   # Download GTSRB dataset and place in data/ folder
-   python download_dataset.py
-   ```
 
 2. **Steps to use**:
    - Click "Select Image" to choose a traffic sign image
@@ -103,6 +99,13 @@ The trained CNN model achieved excellent performance metrics:
 - **Macro Recall**: 98.61%
 - **Macro F1-Score**: 98.82%
 
+## 📉 Accuracy & Loss Curves
+
+This is the plot of the model's accuracy and loss during training:
+
+![Accuracy and Loss](acc_loss.PNG)
+
+
 ### Key Results
 - High accuracy demonstrates excellent generalization capability
 - Balanced performance across all traffic sign classes
@@ -126,6 +129,13 @@ The project includes a user-friendly GUI built with Tkinter that provides:
 3. The selected image appears in the preview window
 4. Click "Predict" to classify the traffic sign
 5. View the predicted class and confidence score
+
+## 🧪 User Interface – Model Testing (Part 1)
+
+This is the user interface used to test the model and interact with it:
+
+![UI Part 1](interface.PNG)
+![UI Part 1](interface2.PNG)
 
 ## 🔬 Key Findings
 
